@@ -86,7 +86,7 @@ function App() {
             dataSource={BookData}
             itemTemplate={itemElementTemplate}
             fields={{ text: 'bookNumber', value: 'id' }}
-            placeholder="Book Number (Can filter)"
+            placeholder="Book Number (Can't filter)"
             filtering={onDropdownFiltering}
             allowFiltering={true}
             showClearButton={true}
@@ -106,7 +106,7 @@ function App() {
           dataSource={BookData}
           itemTemplate={itemElementTemplate}
           fields={{ text: 'bookNumber', value: 'id' }}
-          placeholder="Book Number (can't filter)"
+          placeholder="Book Number (can filter)"
           filtering={onDropdownFiltering}
           allowFiltering={true}
           showClearButton={true}

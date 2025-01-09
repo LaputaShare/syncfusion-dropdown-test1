@@ -1,6 +1,44 @@
 @import '../node_modules/@syncfusion/ej2-base/styles/material.css';
 @import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
 @import '../node_modules/@syncfusion/ej2-react-dropdowns/styles/material.css';
+
+.head,
+.item {
+    display: table;
+    width: 100%;
+    margin: auto;
+}
+
+.head {
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bookNumber {
+    display: table-cell;
+    vertical-align: middle;
+    width: 30%; /* Adjusted proportion */
+    text-indent: 10px;
+}
+
+.bookName {
+    display: table-cell;
+    vertical-align: middle;
+    width: 70%; /* Adjusted proportion */
+    text-indent: 10px;
+}
+
+.head .bookNumber {
+    text-indent: 10px;
+ }
+ 
+ .head .bookName {
+    text-indent: 10px;
+ }
+ 
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
